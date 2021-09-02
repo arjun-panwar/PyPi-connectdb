@@ -4,9 +4,18 @@
 Connect python with Mysql, MongoDB, Cassandra database
 
 ### Installation
-Run below commandto install this package
+Run below commandto install whole package
 
 ```pip install connectdb```
+
+For only Mysql
+```pip install -U connectdb[mysql_db]```
+
+For only MongoDB
+```pip install -U connectdb[mongodb]```
+
+For only Cassandra
+```pip install -U connectdb[cassandra_db]```
 
 ## Mysql
 
